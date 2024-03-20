@@ -26,6 +26,6 @@ while (guest_list.length > 2) {
 }
 ;
 guest_list.map(function (person) { return console.log("\n".concat(person, " You are still invited to dinner!\n")); });
-guest_list.pop();
-guest_list.pop();
-console.log(guest_list);
+// guest_list.pop();
+// guest_list.pop();
+// console.log(guest_list);
